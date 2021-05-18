@@ -36,8 +36,12 @@
 //function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ## Table of Contents
-  * [Description](#Description)
+  
+  # Description
+
+    ${data.description} 
+
+  # Table of Contents
 
   * [Installation](#Installation-Instructions)
 
@@ -50,9 +54,6 @@ function generateMarkdown(data) {
   * [Testing](#Testing) 
     
   * [Questions](#Questions)
-
-  ## Description
-  ${data.description}
 
   ## Installation Instructions 
   ${data.installation}
