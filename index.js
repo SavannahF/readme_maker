@@ -4,52 +4,52 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
+//array of questions for user input
 const questions = [
     {
         type: 'input',
-        name: 'Title',
+        name: 'title',
         message: 'What is the title for your project?',
     },
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Please provide a description of your project:',
     },
     {
         type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'What necessary dependencies must be installed to run this app?',
     },
     {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'Please provide the usage instructions:',
     },
     {
         type: 'list',
-        name: 'License',
+        name: 'license',
         choices: ['Apache License 2.0', ' MIT License', 'Eclipse Public License 2.0', 'Mozilla Public License 2.0'],
         message: 'Please select the type of licese:',
     },
     {
         type: 'input',
-        name: 'Contributors',
+        name: 'contributors',
         message: 'Please provide any contributing members.'
     },
     {
         type: 'input',
-        name: 'Test',
+        name: 'test',
         message: 'Please provide testing instructions for this application.'
     },
     {
         type: 'input',
-        name: 'GitHub',
+        name: 'github',
         message: 'What is your GitHub username?',
     },
     {
         type: 'input',
-        name: 'Email',
+        name: 'email',
         message: "Which email would you like to provide (will be used for inquiries?)",
     }
 ];
@@ -68,7 +68,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then(function(data) {
-          writeToFile("newREADME.md", generatorMarkdown(data))})
+          writeToFile("newREADME.md", generateMarkdown(data))})
         .then(() => console.log("README successfully written."))
         .catch((err) => console.log(err))
 }
