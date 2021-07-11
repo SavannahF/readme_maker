@@ -38,7 +38,7 @@ npm i
 
 -   Link to a walkthrough video that demonstrates its functionality:
 
-      <!-- *   [README Maker Walkthrough Video](insert_link_here) -->
+    -   [README Maker Walkthrough Video](https://youtu.be/bXTjhlKULrs)
 
 1. Run the following command:
 
