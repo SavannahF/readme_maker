@@ -1,8 +1,8 @@
-# Test Project
+# Test Title
   
   # Description
 
-    Description 
+    test description 
 
   # Table of Contents
 
@@ -19,21 +19,21 @@
   * [Questions](#Questions)
 
   ## Installation Instructions 
-  inquirer
+  inquirer, node.js
 
   ## Usage Instructions
-  usage instruction
+  usage instructions
 
   ## License
   Apache License 2.0
 
   ## Contributing Members
-  Savannah
+  Fake User
 
   ## Testing 
    testing instructions
 
   ## Questions
 
-  I am open for questions and feedback on this repository, please contact me directly at fakeUser3@nomail.com. 
-  For other projects I've worked on, see [fakeUser3](https://github.com/fakeUser3/).
+  I am open for questions and feedback on this repository, please contact me directly at fakeuser3@nomail.com. 
+  For other projects I've worked on, see [fakeuser3](https://github.com/fakeuser3/).

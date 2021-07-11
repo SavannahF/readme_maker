@@ -47,10 +47,12 @@ node index.js
 ```
 
 2. Answer the questions as prompted in the command line.
-   ![img of the questions in the terminal](/assets/IMAGE01)
+
+![img of the questions in the terminal](./assets/image01.png)
 
 3. Click the file name newREADME.md to make any changes to the generated README.
-   ![sampleReadme.md](/assets/IMAGE02)
+
+![example of newREADME.md](./assets/image02.png)
 
 ## Contributions
 
